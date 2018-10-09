@@ -1,0 +1,59 @@
+@import "mediawiki.mixins";
+#mw-page-base
+{background-color: #222000 !important;
+background-image: none;}
+@media (max-width:768px)
+{#mw-page-base
+	{background-color: #000000;}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait)
+{#mw-page-base
+	{background-color: #000000;}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape)
+{#mw-page-base
+	{background-color: #000000;}
+}
+div.vectorTabs a:hover
+{background-color: #c5a6ff;}
+div.onhoverbg:hover
+{background-color: #c5a6ff;}
+img.downarrow:hover
+{background-color: #c5a6ff;}
+div.vectorMenu:hover h5 span
+{background-color: #c5a6ff;}
+div.vectorMenu h5 span
+{background-color: #000000;}
+div.vectorMenu:hover h5 a
+{background-color: #FFFFFF;}
+div.vectorMenu h5 a
+{background-color: #000000;}
+div.vectorMenu:hover
+{background-color: #c5a6ff;}
+div.vectorMenu ul
+{border: solid 2px #000000;
+border-top: none;}
+@media (max-width: 768px)
+{#hamburgerIcon:hover
+	{background-color: #c5a6ff;}
+img.editbutton:hover
+	{background-color: #c5a6ff;}
+div.actionmenu ul
+	{border-top: solid 2px #000000;}
+#left-navigation
+	{background-color: #000000;}
+}
+div#footer #footer-icons li {
+    display: none;
+}
+#ca-unwatch.icon a {
+    display: none;
+}
+#ca-talk {
+    display: none;
+}
+/* To make images responsive */
+img {
+	max-width:100%;
+	height:auto;
+}
